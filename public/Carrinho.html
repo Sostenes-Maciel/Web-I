@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="./js/script.js"></script>
+ <!-- Adicione um novo script para manipular o carrinho -->
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header class="heade">
+        <a href="Index.html"><img src="imagens/Logo.png" alt="logo da empresa"></a>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Início</a></li>
+                <li><a href="Paes.html">Pães</a></li>
+                <li><a href="Bolos.html">Bolos</a></li>
+                <li><a href="Contato.html">Contatos</a></li>
+                <li><a href="Carrinho.html">Carrinho</a></li>
+            </ul>
+        </nav>
+        <div id="redes">
+            <a href="https://www.facebook.com/login" target="_blank" rel="noopener noreferrer"><img src="imagens/facebook.png" alt="logo facebook"></a>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener noreferrer"><img src="imagens/instagram.png" alt="logo instagram"></a>
+            <a href="https://www.tiktok.com/foryou" target="_blank" rel="noopener noreferrer"><img src="imagens/tik-tok.png" alt="logo tiktok"></a>
+        </div>
+    </header>
+
+    <section class="secao-carrinho">
+        <!-- Conteúdo do carrinho aqui -->
+        <h2 class="carrim">Carrinho</h2><br><br><br>
+
+        <table class="tabelaa">
+            
+                <tr>
+                    <th class="coluna one">Item</th>
+                    <th class="coluna two">Preço</th>
+                    <th class="coluna three">Quantidade</th>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="produtcont">
+                            
+                            <strong>Total</strong>
+                            <span>R$ 0,00</span>
+                            
+                        </td>
+                    </tr>
+                </tfoot>
+                <tbody >
+                    <script>
+                        carregarCarrinho()
+                    </script>
+                </tbody>
+        </table>
+        <button class="botao-final" type="button">Finalizar Compra</button><br>
+    </section>
+    
+    <footer>
+        <h5>&copy; 2023 Padaria Sabor & Arte</h5>
+    </footer>
+
+        
+</body>
+</html>

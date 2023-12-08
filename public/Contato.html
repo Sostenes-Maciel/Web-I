@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="heade">
+        <a href="Index.html"><img src="imagens/Logo.png" alt="logo da empresa"></a>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Início</a></li>
+                <li><a href="Paes.html">Pães</a></li>
+                <li><a href="Bolos.html">Bolos</a></li>
+                <li><a href="Contato.html">Contatos</a></li>
+                <li><a href="Carrinho.html">Carrinho</a></li>
+            </ul>
+        </nav>
+        <div id="redes">
+            <a href="https://www.facebook.com/login" target="_blank" rel="noopener noreferrer"><img src="imagens/facebook.png" alt="logo facebook"></a>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener noreferrer"><img src="imagens/instagram.png" alt="logo instagram"></a>
+            <a href="https://www.tiktok.com/foryou" target="_blank" rel="noopener noreferrer"><img src="imagens/tik-tok.png" alt="logo tiktok"></a>
+        </div>
+    </header>
+
+<section>
+    <div class="container" id="contato">
+        <h3>CONTATOS</h3><br>
+        <p>Estamos localizados na Rua da Padaria, nº 123.</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Email: contato@padariadelicia.com</p><br>
+        <h4>Acesse nossas redes sociais!</h4><br>
+        <div id="redes2">
+            <a href="https://www.facebook.com/login" target="_blank" rel="noopener noreferrer"><img src="imagens/facebook.png" alt="logo facebook"></a>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener noreferrer"><img src="imagens/instagram.png" alt="logo instagram"></a>
+            <a href="https://www.tiktok.com/foryou" target="_blank" rel="noopener noreferrer"><img src="imagens/tik-tok.png" alt="logo tiktok"></a><br>
+        </div>
+    </div>
+    <div class="container" id="mensagem">
+        <h1>ENVIE SUA MENSAGEM</h1><br>
+        <form action="http://127.0.0.1:5500" method="post">
+                <label for="nome"></label>
+                <input type="text" id="nome" name="nome" placeholder="Nome" required>
+                <label for="sobrenome"></label>
+                <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required>
+                <br><br>
+                <label for="tel"></label>
+                <input type="text" id="tel" name="tel" placeholder="Telefone" required>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="exemplo@hotmail.com">
+                <div>
+                <br>
+                    <strong><h3>Assunto:</h3><br>
+                    <label for="genero1">Elogio</label>
+                    <input type="radio" name="mas" id="mas" value="Masculino">
+                    <label for="genero2">Reclamação</label>
+                    <input type="radio" name="op2" id="op2" value="op2inino">
+                    <label for="sem">Sugestão</label>
+                    <input type="radio" name="sem" id="sem" value="Não Informar"></strong>
+                </div>
+                <br><br>
+                <textarea name="cometarios" id="comentarios" cols="60" rows="12" placeholder="Deixe seu comentário sobre o que tem achado do nosso site e em que podemos melhorar!!"></textarea>
+                <br><br>
+            <button type="submit"class="botao-enviar">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<header></header>
+
+<section id="padeiro">
+    <img src="imagens/padeiro.webp" alt="padeiro">
+    <div class="container" id="mensagem">
+        <h1>Cadastre-se:</h1><br>
+        <form action="http://127.0.0.1:5500" method="post">
+            <label for="nome"></label>
+            <input type="text" id="nome" name="nome" placeholder="Login" required>
+            <label for="nome2"></label>
+
+            <input type="text" id="nome2" name="nome2" placeholder="Repita o Login" required>
+            <label for="senha"></label>
+            <br><br>
+
+            <input type="text" id="senha" name="senha" placeholder="Senha" required>
+            <label for="mae"></label>
+
+            <input type="text" id="senha2" name="senha2" placeholder="Repita a Senha" required>
+            <label for="mae2"></label>
+            <br><br>
+
+            <input type="text" id="mae" name="mae" placeholder="Telefone" required>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <div>
+                <br>
+                <strong><h3>Gênero:</h3>
+                <br>
+                <label for="genero1">Masculino:</label>
+                <input type="radio" name="mas" id="mas" value="Masculino">
+                <label for="genero2">Feminino:</label>
+                <input type="radio" name="op2" id="op2" value="op2inino">
+                <label for="sem">Não Informar:</label>
+                <input type="radio" name="sem" id="sem" value="Não Informar"></strong>
+            </div>
+            <br><br>
+            <button type="submit" class="botao-enviar">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<header></header>
+
+<section id="padeiro">
+    <img src="imagens/padeiro2.png" alt="padeiro">
+    <div class="container" id="mensagem">
+        <h1>TRABALHE CONOSCO</h1><br>
+        <form action="http://127.0.0.1:5500" method="post">
+            <label for="nome"></label>
+            <input type="text" id="nome" name="nome" placeholder="Nome" required>
+            <label for="sobrenome"></label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required>
+            <label for="mae"></label><br><br>
+            <input type="text" id="mae" name="mae" placeholder="Telefone" required>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Email">
+            <br><br>
+            <label for="arquivo"><strong>Currículo:</strong></label>
+            <input type="file" name="arquivo" id="arquivo">
+            <br><br>
+            <textarea name="cometarios" id="comentarios" cols="60" rows="12" placeholder="Nos diga o motivo de fazer parte da nossa equipe, os seus pontos fortes e fracos quando se trabalha em equipe e quanto tempo tem de experiência no ramo. Boa sorte!"></textarea>
+            <br><br>
+            <button type="submit" class="botao-enviar">Enviar</button>
+        </form>
+        <br><br><br>
+<a href="Contato.html"><button class="botao-enviar">Voltar ao Topo</button></a>
+    </div>
+</section>
+
+    <footer>
+        <h5>&copy; 2023 Padaria Sabor & Arte</h5>
+    </footer>
+</body>
+</html>
+

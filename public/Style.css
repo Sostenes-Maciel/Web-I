@@ -1,0 +1,390 @@
+/* Reset CSS padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+Estilos gerais
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8dab2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 35px;
+}
+
+/* Pagina Index */
+header {
+    background-color: #330f0a;
+    color: #fff;
+    font-size: 20px;
+    padding: 50px 0px;
+}
+
+header img{
+    max-width: 100%;
+    width: 200px;
+    vertical-align:top;
+    position:absolute;
+    left: 210px;
+    top: 8px;
+
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 40px;
+}
+
+header nav ul li a {
+    text-decoration:none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header {
+    color: #330f0a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* Estilos para quando o mouse passa por cima do botão */
+header:hover {
+    background-color: #480202fc; /* Cor de fundo ao passar o mouse */
+}
+
+
+section .expo img {
+    max-width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    border: 3px solid black;
+    width: 350px;
+    height: 300px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+#part1 {
+    color: #333;
+    font-size: 45px;
+    position: absolute;
+    right: 999px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+#part2 {
+    color: #333;
+    font-size: 20px;
+    text-align:justify;
+    width: 500px;
+    height: 300px;
+    margin-right: 530px;
+}
+
+#part3 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    position:relative;
+    left:485px;
+    width: 160px;
+    margin-top: -400px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#part4 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    position:relative;
+    left:485px;
+    bottom: 30px;
+    width: 430px;
+    margin-top: -400px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#balcao img {
+    display:block;
+    width: 1480px;
+    height: 800px;
+}
+
+section {
+    background-color: #e8dab2;
+    background-image: url('imagens/papel-de-parede-textura.jpg');  
+   
+    padding: 40px 0;
+    text-align: center;
+}
+
+h1, h2, h3, h4, span, p {
+    color: #480202fc;
+}
+
+#redes img {
+    max-width: 100%;
+    height: auto;
+    position:relative;
+    left: 1150px;
+    transform: translateX(-50%);
+    top: -30px;
+    margin-right: 50px;
+    width: 40px;
+}
+
+/* Pagina Contatos */
+
+#mensagem {
+    position: relative;
+    left: -400px;
+    bottom: 230px;
+    font-size: 20px;
+}
+
+#redes2 img {
+    display:inline-block;
+    position: relative;
+    margin-right: 30px;
+    top: 12px;
+    width: 50px;
+}
+
+#contato {
+    position: relative;
+    margin-left: 700px;
+    top: 190px;
+    font-size: 35px; 
+}
+
+#padeiro img {
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+
+footer {
+    background-color: #330f0a;
+    color: #e6b89c;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Pagina Produtos/Paes e Bolos e Doces */
+
+ /* Estilos para as seções */
+ .secao-bolo {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    background-image: url('imagens/papel-de-parede-textura.jpg');
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: #e8dab2;
+}
+
+/* Estilos para a imagem */
+.imagem-bolo {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* Estilos para o preço */
+.preco-bolo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #480202fc;
+    margin-top: 10px;
+}
+
+/* Estilos para a descrição */
+.descricao-bolo {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.produtos {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Estilos para quando o mouse passa por cima do botão */
+.botao-enviar:hover,
+.botao-final:hover {
+    background-color: #09590b; /* Cor de fundo ao passar o mouse */
+}
+
+.heade:hover{
+    color:#e6b89c
+}
+
+.botao-enviar,
+.botao-final {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tabelaa {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.coluna {
+    text-align: start;
+    border-bottom: 1px solid black;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+
+}
+
+.one {
+    font-size: 25px;
+}
+
+.two,
+.three {
+    width: 26%;
+    font-size: 25px;
+}
+
+.produt1 td {
+    padding: 8px 0;;
+}
+
+.produtid {
+    display: flex;
+    align-items: center;
+}
+
+.produtimage {
+    width: 170px;
+    height: 110px;
+}
+
+.produtname {
+    margin-left: 16px;
+    font-size: 30px;
+}
+
+.produtprice {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    margin-right: 45%;
+
+}
+
+.produtqtd {
+    width: 48px;
+    height: 34px;
+    margin-right: 85px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: 2px solid #e6b89c;
+    background-color : white;
+}
+
+.botao-remover {
+    margin-right: 120px;
+    background-color: red;
+    color: white;
+    padding: 10px 8px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.botao-remover :hover {
+    background-color: #67120c;
+}
+
+.produtcont {
+    border-top: 1px solid #959595;
+    text-align: end;
+    padding: 6px 16px 0 0;
+    font-size: 40px;
+}
+
+.produtcont strong {
+    margin-right: 15px;
+}
+
+.botao-final {
+    display: flex;
+    margin: 24px auto 0;
+    background-color: #28c828;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 16px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.carrim {
+    font-size: 450%;
+}
+
+
